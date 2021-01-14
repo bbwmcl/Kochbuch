@@ -165,7 +165,20 @@ a {
   text-align: center;
   height: 500px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
 /* End of footer */
+
+.scetion-4 {
+  margin-top: 200px;
+  margin-left: 30px;
+  flex-direction: column;
+}
 
 .hh{
   margin-top: 100px;
@@ -176,8 +189,20 @@ a {
   margin-bottom: 5rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
-  margin-right: 250px;
+  margin-right: 150px;
 }
 .p1{
   margin-top: 70px;
+  margin-right: 100px;
+}
+
+.img {
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  float: right;
+}
+
+.bi1 {
+  margin-bottom: 200px;
 }
