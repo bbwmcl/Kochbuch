@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
+header {
+  margin-top: 100px;
+}
+
+main {
+  margin-bottom: 1000px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 80px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar-left {
+  float: left;
+}
+
+.navbar-link {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: black;
+  margin-left: 100px;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar-link:hover {
+  color: rgba(4, 0, 255, 0.5);
+  transition: color 0.2s;
+}
+
+.navbar-link::before {
+  content: "";
+  width: 0;
+  height: 0.2rem;
+  background-color: rgba(4, 0, 255, 0.5);
+  position: absolute;
+  right: -15%;
+  bottom: -0.3rem;
+  transition: width 0.2s;
+}
+
+.navbar-link:hover::before {
+  width: 130%;
+}
+/* End of Navbar */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scetion-1 {
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(4, 0, 255, 0.5);
+  background-size: cover;
+  flex-direction: column;
+  box-shadow: 2rem 2rem 2rem #555;
+}
+
+.section-1-heading {
+  font-size: 6rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  border-bottom: 0.3rem solid white;
+}
+
+.section-1-btn {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #333;
+  background-color: white;
+  border: 0.3rem solid black;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
