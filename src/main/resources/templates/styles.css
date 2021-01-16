@@ -235,6 +235,11 @@ hr {
   padding: 400px;
 }
 
-.rezept-marin {
+.rezept-margin {
   margin: 20px;
+}
+
+.cooking-clock {
+  height: 30px;
+  width: auto;
 }
