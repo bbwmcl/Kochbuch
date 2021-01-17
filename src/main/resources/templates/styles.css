@@ -224,7 +224,7 @@ hr {
   font-size: 3rem;
   font-weight: 400;
   color: rgb(8, 6, 6);
-  margin-bottom: 5rem;
+  margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1rem;
 }
@@ -242,4 +242,98 @@ hr {
 .cooking-clock {
   height: 30px;
   width: auto;
+}
+
+.backButton {
+  height: 20px;
+  width: 30px;
+}
+
+/* back button */
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* end of back button */
+
+/* section-3 */
+
+.scetion-3 {
+  height: 1200px;
+  background-color: #555;
+}
+
+.recipeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.recipeHeaderImg {
+  height: 45%;
+  width: 45%;
+  border-radius: 4%;
+}
+
+
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+/* end of section-3 */
+
+.ingridigents {
+  text-align: left;
+  padding: 30px;
+}
+
+.border {
+  border: black solid thin;
+}
+
+.title-for-recipe {
+  color: #333;
+  font-weight: 24px;
+}
+
+.timer-in-recipe {
+  display: flex;
 }
