@@ -127,7 +127,7 @@ footer {
   grid-row-start: 3;
   grid-row-end: 4;
 
-  height: 533px;
+  height: 550px;
 }
 
 .footer-grid-container {
@@ -343,4 +343,9 @@ h2 {
 
 .timer-in-recipe {
   display: flex;
+}
+
+.recipeHeaderImgChicken {
+  height: 500px;
+  width: 500px;
 }
